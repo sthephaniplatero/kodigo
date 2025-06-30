@@ -1,0 +1,212 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff0f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #000;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  width: 100px;
+  border-radius: 50%;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+}
+
+
+.producto {
+  flex: 2 ;
+  max-width: 60%;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid #e6c2dc;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product_image {
+  width: 50%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s;
+  display: block;
+  margin: 0 auto;
+  border: 3px solid #e6c2dc;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.product_image:hover {
+  transform: scale(1.05);
+}
+
+
+.container {
+  flex: 1 ;
+  max-width: 30%;
+  margin: 10px;
+  padding: 20px;
+  background-color: #ffe4f1;
+  border-radius: 12px;
+  border: 2px solid #cc99cc;
+  text-align: center;
+}
+
+.mas_vendido_image{
+  width: 100px;
+  border-radius: 50%;
+}
+
+.container h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.container h5 {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.container h3 {
+  color: #b30059;
+  margin-bottom: 15px;
+  margin-top: 10px;
+
+}
+
+.container button {
+  background-color: #b30059;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s;
+}
+
+.container button:hover {
+  background-color: #800040;
+}
+
+.comentarios{
+  width: 90%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffe4f1;
+  border-radius: 12px;
+  border: 2px solid #cc99cc;
+  text-align: center;
+}
+
+.comentarios p {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  margin-top: 0%;
+  resize: vertical;
+  font-size: 1em;
+  text-align: left;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.comentarios h2 {
+  color: #b30059;
+  margin-bottom: 15px;
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.1); 
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.comentarios h4{
+  color: #b30059;
+  margin-bottom: 0%;
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.1); 
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.footer {
+  background-color: #000;
+  color: white;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1 1 200px;
+  margin: 10px;
+}
+
+.footer-section h3 {
+  margin-bottom: 10px;
+  color: #f1b6d1;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: #ff80bf;
+}
+
+.socials img {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #ff80bf;
+}
+
+
